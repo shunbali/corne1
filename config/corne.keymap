@@ -82,7 +82,7 @@
         layer_3 {
             bindings = <
 &kp ESC    &trans     &trans     &trans     &trans     &kp LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LC(A)  &kp LC(S)  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &trans     &kp LC(G)    &trans  &trans  &trans  &trans  &trans  &trans
 &kp LS(Z)  &kp LC(Z)  &trans     &kp LC(C)  &kp LC(V)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans     &trans     &trans       &trans  &to 0   &to 0
             >;
