@@ -14,17 +14,12 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <36 0>;
+            key-positions = <0 1>;
         };
 
         windows {
             bindings = <&kp LEFT_WIN>;
             key-positions = <37 36>;
-        };
-
-        editing {
-            bindings = <&to 3>;
-            key-positions = <40 41>;
         };
     };
 
@@ -76,15 +71,6 @@
 &kp F7     &kp F8            &kp F9             &kp F10        &kp F11       &kp F12         &kp PAGE_DOWN  &kp END   &trans  &trans  &kp SQT  &kp INS
 &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &bt BT_SEL 3  &bt BT_SEL 4    &trans         &trans    &trans  &trans  &trans   &kp ESC
                                                 &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2    &kp ENTER      &trans    &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&kp ESC    &trans     &trans     &trans     &trans     &kp LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &trans     &kp LC(G)    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(Z)  &kp LC(Z)  &trans     &kp LC(C)  &kp LC(V)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans     &trans     &trans       &trans  &to 0   &to 0
             >;
         };
     };
