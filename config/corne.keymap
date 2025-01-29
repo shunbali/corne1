@@ -21,6 +21,11 @@
             bindings = <&kp LEFT_WIN>;
             key-positions = <37 36>;
         };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <40 41>;
+        };
     };
 
     keymap {
@@ -58,13 +63,17 @@
             >;
         };
 
-        raise_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+        layer2 {
+            display-name = "Lower";
+            bindings = <
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&trans  &trans           &trans       &trans    &trans      &trans         &kp COLON       &kp UP_ARROW    &trans           &trans                &kp COLON              &kp MINUS
+&trans  &trans           &trans       &trans    &trans      &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                &trans                 &kp EQUAL
+                                      &trans    &trans      &kp SPACE      &kp RET         &trans          &trans
+            >;
+        };
 
+        layer3 {
             display-name = "Raise";
             bindings = <
 &kp F1     &kp F2            &kp F3             &kp F4         &kp F5        &kp F6          &kp PG_UP      &kp HOME  &trans  &trans  &trans   &kp PRINTSCREEN
