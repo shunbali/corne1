@@ -41,6 +41,11 @@
             bindings = <&kp TAB>;
             key-positions = <12 13>;
         };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <11 23>;
+        };
     };
 
     keymap {
