@@ -46,16 +46,6 @@
             bindings = <&kp DELETE>;
             key-positions = <11 23>;
         };
-
-        backphotoshop {
-            bindings = <&kp K_REDO>;
-            key-positions = <36 24>;
-        };
-
-        backphotoshop {
-            bindings = <&kp LS(K_UNDO)>;
-            key-positions = <36 25>;
-        };
     };
 
     keymap {
