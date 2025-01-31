@@ -22,11 +22,6 @@
             key-positions = <37 36>;
         };
 
-        layer3 {
-            bindings = <&mo 3>;
-            key-positions = <40 41>;
-        };
-
         ten {
             bindings = <&kp SQT>;
             key-positions = <22 23>;
@@ -60,10 +55,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LS(CAPS)    &kp Q  &kp W  &kp E      &kp R      &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P      &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F      &kp G        &kp H    &kp J  &kp K      &kp L    &kp COLON  &kp MINUS
-&kp LEFT_WIN    &kp Z  &kp X  &kp C      &kp V      &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp EXCLAMATION
-                              &kp LCTRL  &kp SPACE  &kp ENTER    &kp RET  &mo 1  &mo 2
+&kp LS(CAPS)    &kp Q  &kp W  &kp E      &kp R      &kp T        &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F      &kp G        &kp H  &kp J  &kp K      &kp L    &kp COLON  &kp MINUS
+&kp LEFT_WIN    &kp Z  &kp X  &kp C      &kp V      &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp EXCLAMATION
+                              &kp LCTRL  &kp SPACE  &kp ENTER    &mo 1  &mo 2  &mo 3
             >;
         };
 
@@ -96,10 +91,10 @@
         layer3 {
             display-name = "33333";
             bindings = <
-&kp CAPSLOCK  &kp F1  &kp F2  &kp F3        &kp F4        &kp F5          &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&trans        &trans  &trans  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans   &trans
-&trans        &trans  &trans  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans   &trans
-                              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &trans  &trans  &trans
+&kp CAPSLOCK  &kp F1  &kp F2  &kp F3        &kp F4        &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans        &trans  &trans  &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&trans        &trans  &trans  &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans   &trans
+                              &bt BT_SEL 0  &bt BT_SEL 1  &trans    &trans  &trans  &trans
             >;
         };
     };
