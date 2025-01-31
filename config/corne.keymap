@@ -41,16 +41,6 @@
             bindings = <&kp DELETE>;
             key-positions = <11 23>;
         };
-
-        ctrl+z {
-            bindings = <&kp K_UNDO>;
-            key-positions = <24 25>;
-        };
-
-        ctrl+shift+z {
-            bindings = <&kp K_REDO>;
-            key-positions = <25 26>;
-        };
     };
 
     keymap {
