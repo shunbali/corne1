@@ -41,31 +41,6 @@
             bindings = <&kp DELETE>;
             key-positions = <11 23>;
         };
-
-        ctrlQ {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <36 1>;
-        };
-
-        ctrlW {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <36 2>;
-        };
-
-        CtrlE {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <36 3>;
-        };
-
-        CtrlR {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <36 4>;
-        };
-
-        CtrlT {
-            bindings = <&kp N5>;
-            key-positions = <36 5>;
-        };
     };
 
     keymap {
