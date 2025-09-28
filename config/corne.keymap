@@ -71,9 +71,9 @@
 
             display-name = "11111";
             bindings = <
-&none  &none  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &none           &none           &none            &none   &none      &kp BSPC
-&none  &none  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp COLON       &kp UP_ARROW    &trans           &trans  &kp COLON  &kp MINUS
-&none  &none  &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp PLUS   &kp EQUAL
+&none  &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none              &none           &none           &none            &none   &none      &kp BSPC
+&none  &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0    &kp COLON       &kp UP_ARROW    &trans           &trans  &kp COLON  &kp MINUS
+&none  &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none              &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp PLUS   &kp EQUAL
                                &trans           &trans           &trans             &trans          &trans          &trans
             >;
         };
